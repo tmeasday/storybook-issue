@@ -32,8 +32,7 @@ var config = {
   plugins: [
     // Provides without needing import:
     new webpack.ProvidePlugin({
-      React: 'react',
-      Compoent: 'lodash'
+      React: 'react'
     }),
   ]
 }
