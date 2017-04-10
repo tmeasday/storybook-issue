@@ -10,8 +10,9 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "storybook": "start-storybook -p 9001 -c .storybook", 
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "storybook": "start-storybook -p 6006",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-storybook": "build-storybook"
   },
   "keywords": [
     "React.js",
@@ -21,7 +22,7 @@
   "author": "Leon Dragan",
   "license": "MIT",
   "devDependencies": {
-    "@kadira/storybook": "^2.35.3",
+    "@kadira/storybook": "^2.21.0",
     "babel-core": "^6.24.1",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
